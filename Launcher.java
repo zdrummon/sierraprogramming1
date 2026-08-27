@@ -41,7 +41,18 @@ public class Launcher {
         System.out.print("Enter the number below to run a program:");
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
-        projChoice = Integer.parseInt(input);
+        
+        if (input.isEmpty() || input.equals("0")) {
+            // default behavior
+        } else {
+        // handle the actual value
+            try {
+                projChoice = Integer.parseInt(input);
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input. Exiting.");
+            }
+        }
+
         scanner.close();
 
         if (projChoice == 0) {
