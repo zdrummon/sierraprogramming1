@@ -1,9 +1,10 @@
 // Launcher.java
-import java.util.Scanner;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
+import java.util.Scanner;
 import java.lang.reflect.Method;
 
 
@@ -38,7 +39,7 @@ public class Launcher {
             System.out.println((i + 1) + ". " + label);
         }
 
-        System.out.print("Enter the number below to run a program:");
+        System.out.print("Enter the number below to run a program: ");
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         
