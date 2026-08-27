@@ -5,7 +5,7 @@
       "type": "java",
       "name": "Java: Current File",
       "request": "launch",
-      "mainClass": "HelloWorld",
+      "mainClass": "Launcher",
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}"
     }

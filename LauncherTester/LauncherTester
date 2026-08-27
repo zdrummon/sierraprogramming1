@@ -1,0 +1,6 @@
+// LauncherTester.java
+public class LauncherTester {
+    public static void main(String[] args) {
+        System.out.println("Hello from LauncherTester");
+    }
+}
