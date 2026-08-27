@@ -53,7 +53,7 @@ public class Launcher {
             
             if (!input.matches("\\d+")) {
                 //handling non-integer input
-                System.out.println("Invalid input. Please enter a number.");
+                System.out.println("Invalid command.\n\"" + input + "\" is not an option.");
                 continue;
             }
             else {
@@ -62,7 +62,7 @@ public class Launcher {
             }
 
             if (projChoice == 0) {
-                System.out.println("Closing Launcher.");
+                System.out.println("Closing Launcher.\n\n");
 
             //if the user input is a valid number, launch the program
             } else if (projChoice > 0 && projChoice <= entries.size() && input.matches("\\d+")) {
@@ -85,7 +85,7 @@ public class Launcher {
                 }
 
             } else {
-                System.out.println("Unknown command.\n\"" + projChoice + "\" is not an option.");
+                System.out.println("Invalid command.\n\"" + input + "\" is not an option.");
             }
         }
 
