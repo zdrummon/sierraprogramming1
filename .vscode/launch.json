@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Homework1",
+      "request": "launch",
+      "mainClass": "proj_3_Homework1.Homework1",
+      "projectName": "sierraprogramming1_169daeb2"
+    },
+    {
+      "type": "java",
       "name": "Java: Current File",
       "request": "launch",
       "mainClass": "Launcher",
