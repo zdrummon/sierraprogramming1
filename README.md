@@ -1,4 +1,7 @@
-# Fall 2026 Computer Science 12 Programming Concepts Methods I
+# Fall 2026 Computer Science 12 
+## Programming Concepts and Methods I
+**Student:** Zachary Drummond  
+**Email:** zdrummon@gmail.com
 
 ## To Compile
 
