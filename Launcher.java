@@ -63,6 +63,7 @@ public class Launcher {
 
             if (projChoice == 0) {
                 System.out.println("Closing Launcher.\n\n");
+                break;
 
             //if the user input is a valid number, launch the program
             } else if (projChoice > 0 && projChoice <= entries.size() && input.matches("\\d+")) {
