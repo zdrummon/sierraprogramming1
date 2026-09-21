@@ -1,4 +1,4 @@
-// LauncherTester.java
+//LauncherTester
 package proj_2_LauncherTester;
 
 public class LauncherTester {

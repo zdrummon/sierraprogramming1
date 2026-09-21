@@ -76,7 +76,7 @@ public class Launcher {
 
                 // reflection call goes here, using className
                 try {
-                    //using the imported reflection Method class, I barely understand this because AI helped me
+                    //using the imported reflection Method class
                     Class<?> clazz = Class.forName(className);//fetches the class object from the parsed className
                     Method mainMethod = clazz.getMethod("main", String[].class); //finds the method with that name and parameter type (because overloading) and puts it in mainMethod
                     mainMethod.invoke(null, (Object) new String[0]); //this invokes the method we found, passing null as the arg, invoking mainMethod (the main method in the targeted class) runs the next program
