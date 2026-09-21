@@ -38,17 +38,18 @@ public class Launcher {
         while (projChoice != 0) {
 
             //parse the folder names to get the labels and display them to the user
-            System.out.println("\n\nChoose a program to run fom the list:\n0. Exit");
+            System.out.println("\n\nChoose a choice from the list:\n0. Exit");
 
             for (int i = 0; i < entries.size(); i++) {
                 String entry = entries.get(i); //get the folder name from the Collections list
                 String[] parts = entry.split("_", 3); //split the folder name into label.parts[]
                 String label = parts[2]; //this is the folder name minus proj and the number
-                System.out.println((i + 1) + ". " + label);
+                String projID = parts[1]; //this is the folder name minus proj and the number
+                System.out.println((projID) + ". " + label);
             }
 
             //using the imported Scanner class to get user input
-            System.out.print("Enter the number below to run a program: ");
+            System.out.print("\nEnter the number below to run a program: ");
             String input = scanner.nextLine();
             
             if (!input.matches("\\d+")) {
