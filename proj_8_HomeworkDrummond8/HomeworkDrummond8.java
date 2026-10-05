@@ -103,9 +103,9 @@ public class HomeworkDrummond8 {
         double increase = futurePopulation - population;
         double average = increase / years;
         String output = "Country: " + country + "\n"
-                        + "Future population: " + futurePopulation + "\n"
-                        + "Total increase: " + increase + "\n"
-                        + "Average yearly growth: " + average;
+              + "Future population: " + String.format("%.0f", futurePopulation) + "\n"
+              + "Total increase: " + String.format("%.0f", increase) + "\n"
+              + "Average yearly growth: " + String.format("%.0f", average);
 
         return output;
     }
